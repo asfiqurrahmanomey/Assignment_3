@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Coursa Online Learning Platform</title>
-    <!-- tailwind css external-->
+    <!-- tailwind Script -->
     <script>
         tailwind.config = {
             theme: {
@@ -19,8 +19,9 @@
             }
         }
     </script>
+    <!-- Tailwind Config.Js -->
     <link rel="stylesheet" href="tailwind.config.js">
-    <!-- flowbyte -->
+    <!-- Flowbite Component Library Link-->
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.1/dist/flowbite.min.css" />
     <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,7 +31,6 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-
 <body>
     <!-- Header Start -->
     <header class="w-[90%] lg:w-[80%] mx-auto mb-5">
@@ -38,16 +38,13 @@
             <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                 <a href="index.html" class="flex items-center">
                     <img src="images/logo/logo.png" class="mr-3 h-6 sm:h-9" alt="" />
-                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-                        <E-Coursa></E-Coursa>
-                    </span>
                 </a>
                 <div class="flex items-center lg:order-2">
-                    <button class=" text-sky-600 hover:text-white border border-sky-600 hover:bg-sky-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-sky-600" type="button" data-modal-toggle="authentication-modal">
+                    <button
+                        class=" text-sky-600 hover:text-white border border-sky-600 hover:bg-sky-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-sky-600"
+                        type="button" data-modal-toggle="authentication-modal">
                         Register
                     </button>
-                    <!-- <a href="index.html"
-                        class="text-sky-600 hover:text-white border border-sky-600 hover:bg-sky-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-sky-600">Register</a> -->
                     <button data-collapse-toggle="mobile-menu-2" type="button"
                         class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                         aria-controls="mobile-menu-2" aria-expanded="false">
@@ -100,11 +97,11 @@
     <!-- Header End -->
     <!-- Main Part Start -->
     <main class="w-[90%] lg:w-[80%] mx-auto mb-10">
-        <!-- Hero Part -->
+        <!-- Hero Part Start -->
         <section>
+            <!-- Hero Carousal Start-->
             <div class="container w-[100%] mx-auto">
                 <div id="default-carousel" class="relative" data-carousel="static">
-                    <!-- Carousel wrapper -->
                     <div class="overflow-hidden relative h-56 rounded-lg md:h-96 lg:h-[600px]">
                         <!-- Item 1 -->
                         <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20"
@@ -114,16 +111,15 @@
                                 Slide</span>
                             <img src="images/cover/cover-1.png"
                                 class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
-                                alt="...">
+                                alt="">
                             <div
                                 class="flex flex-col justify-center items-center absolute top-1/2 left-1/2 text-white -translate-x-1/2 -translate-y-1/2">
                                 <h1
                                     class="text-xl font-semibold sm:text-3xl md:text-5xl md:text-center lg:text-6xl lg:text-center">
-                                    Build Your Career
+                                    Learn with us anytime
                                 </h1>
                                 <p class="mt-1 lg:mt-2 text-center text-sm md:text-lg lg:text-lg">
-                                    Our skilled instructors are continuously training students of
-                                    all calibre.
+                                    Your chance to be a trending expert in IT industries and make a successful career after completion of our courses.
                                 </p>
                                 <button class="bg-blue-600 px-6 py-2 mt-2 rounded-md ">Get Started</button>
                             </div>
@@ -138,11 +134,10 @@
                                 class="flex flex-col justify-center items-center absolute top-1/2 left-1/2 text-white -translate-x-1/2 -translate-y-1/2">
                                 <h1
                                     class="text-xl font-semibold sm:text-3xl md:text-5xl md:text-center lg:text-6xl lg:text-center">
-                                    Build Your Career
+                                    Best Educational Environment
                                 </h1>
                                 <p class="mt-1 lg:mt-2 text-center text-sm md:text-lg lg:text-lg">
-                                    Our skilled instructors are continuously training students of
-                                    all calibre.
+                                    E-Coursa is one of the world`s big Learning systems, with over 10 million Student.
                                 </p>
                                 <button class="bg-blue-600 px-6 py-2 mt-2  rounded-md ">Get Started</button>
                             </div>
@@ -159,8 +154,7 @@
                                     Build Your Career
                                 </h1>
                                 <p class="mt-1 lg:mt-2 text-center text-sm md:text-lg lg:text-lg">
-                                    Our skilled instructors are continuously training students of
-                                    all calibre.
+                                    Get professional education and reliable consultation by our team of certified teachers and instructors.
                                 </p>
                                 <button class="bg-blue-600 px-6 py-2 mt-2  rounded-md">Get Started</button>
                             </div>
@@ -196,117 +190,268 @@
                     </button>
                 </div>
             </div>
+            <!-- Hero Carousal End-->
         </section>
-        <!-- Hero -->
-        <!-- Article -->
+        <!-- Hero Part End-->
+
+        <!-- Our Courses Part Start -->
         <article>
             <section>
+                <!-- Container Start -->
                 <div class="container px-2 ">
+                    <!-- Course Title Start -->
                     <div class="section-header mx-auto text-center mt-20">
                         <h1 class="text-2xl lg:text-4xl font-bold text-titleColor">
-                            Discover Our Popular <br class="hidden lg:block" />
-                            Courses
+                            Expand your career with  <br class="hidden lg:block" />
+                            our Courses
                         </h1>
                         <p class="text-gray-700 dark:text-gray-400 text-justify mt-5 mb-4 w-[80%] lg:w-1/2 mx-auto">
-                            Learn Tech provides access to thousands of courses produced by
-                            independent instructors to millions of students. We provide access
-                            to training courses for individuals, to businesses.
+                            Learners around the world are launching new careers, advancing in their fields, and enriching their lives with our popular online courses.
                         </p>
                     </div>
-                    <!-- Item -->
+                    <!-- Course Title Start -->
+                    <!-- Course Item Start-->
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
+                        <!-- Course Item 1 Start-->
                         <a href="#"
                             class=" flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 ">
                             <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                                 src="images/course/course-1.png" alt="">
                             <div class="flex flex-col justify-between p-4 leading-normal">
-                                <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-600">Fundamental Of UI/UX Design</h5>
-                                <p class="mb-3 text-sm text-gray-700 dark:text-gray-400">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                                <h4 class="text-sky-500 font-bold">Price: 20$</h4>
+                                <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-600">Fundamental Of UI/UX
+                                    Design</h5>
+                                <p class="mb-3 text-sm text-gray-700 dark:text-gray-400">Icon Design, UI UX Design using Adobe Illustrator, Photoshop, Adobe XD and design great l mobile app icons for the apps.</p>
+                                <h4 class="text-sky-500 font-bold">Price: 35$</h4>
                             </div>
                         </a>
+                        <!-- Course Item 1 End-->
+                        <!-- Course Item 2 Start-->
                         <a href="#"
                             class=" flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 ">
                             <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                                 src="images/course/course-2.png" alt="">
                             <div class="flex flex-col justify-between p-4 leading-normal">
-                                <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-600">Fundamental Of UI/UX Design</h5>
-                                <p class="mb-3 text-sm text-gray-700 dark:text-gray-400">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                                <h4 class="text-sky-500 font-bold">Price: 20$</h4>
+                                <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-600">Javascript Basic to advanced</h5>
+                                <p class="mb-3 text-sm text-gray-700 dark:text-gray-400">Modern JavaScript from the beginning - all the way up to JS expert level! THE must-have JavaScript resource in 2022.</p>
+                                <h4 class="text-sky-500 font-bold">Price: 45$</h4>
                             </div>
                         </a>
+                        <!-- Course Item 2 End-->
+                        <!-- Course Item 3 Start-->
                         <a href="#"
                             class=" flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 ">
                             <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                                 src="images/course/course-3.png" alt="">
                             <div class="flex flex-col justify-between p-4 leading-normal">
-                                <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-600">Fundamental Of UI/UX Design</h5>
-                                <p class="mb-3 text-sm text-gray-700 dark:text-gray-400">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                                <h4 class="text-sky-500 font-bold">Price: 20$</h4>
+                                <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-600">Fullstack Web Development</h5>
+                                <p class="mb-3 text-sm text-gray-700 dark:text-gray-400">Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps.</p>
+                                <h4 class="text-sky-500 font-bold">Price: 30$</h4>
                             </div>
                         </a>
+                        <!-- Course Item 3 End-->
+                        <!-- Course Item 4 Start-->
                         <a href="#"
                             class=" flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 ">
                             <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                                 src="images/course/course-4.png" alt="">
                             <div class="flex flex-col justify-between p-4 leading-normal">
-                                <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-600">Fundamental Of UI/UX Design</h5>
-                                <p class="mb-3 text-sm text-gray-700 dark:text-gray-400">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                                <h4 class="text-sky-500 font-bold">Price: 20$</h4>
+                                <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-600">Digital Marketing</h5>
+                                <p class="mb-3 text-sm text-gray-700 dark:text-gray-400">Top Digital Marketing Course | Facebook Ads, Google/YouTube, Display/Video & more|Grow your career.</p>
+                                <h4 class="text-sky-500 font-bold">Price: 40$</h4>
                             </div>
                         </a>
+                        <!-- Course Item 4 End-->
+                        <!-- Course Item 5 Start-->
                         <a href="#"
                             class=" flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 ">
                             <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                                 src="images/course/course-5.png" alt="">
                             <div class="flex flex-col justify-between p-4 leading-normal">
-                                <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-600">Fundamental Of UI/UX Design</h5>
-                                <p class="mb-3 text-sm text-gray-700 dark:text-gray-400">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                                <h4 class="text-sky-500 font-bold">Price: 20$</h4>
+                                <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-600">Mastering In Graphic Design</h5>
+                                <p class="mb-3 text-sm text-gray-700 dark:text-gray-400">The Ultimate Graphic Design Course Which Covers Photoshop, Illustrator, InDesign,Design Theory, Branding and Logo Design.</p>
+                                <h4 class="text-sky-500 font-bold">Price: 50$</h4>
                             </div>
                         </a>
+                        <!-- Course Item 5 End-->
+                        <!-- Course Item 6 Start-->
                         <a href="#"
                             class=" flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 ">
                             <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                                 src="images/course/course-6.png" alt="">
                             <div class="flex flex-col justify-between p-4 leading-normal">
-                                <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-600">Fundamental Of UI/UX Design</h5>
-                                <p class="mb-3 text-sm text-gray-700 dark:text-gray-400">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                                <h4 class="text-sky-500 font-bold">Price: 20$</h4>
+                                <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-600">Motion Graphics</h5>
+                                <p class="mb-3 text-sm text-gray-700 dark:text-gray-400">Adobe After Effects CC Create stunning Motion Graphics, VFX Visual Effects & VFX Compositing with 50+ practice projects.</p>
+                                <h4 class="text-sky-500 font-bold">Price: 45$</h4>
                             </div>
                         </a>
-                        <button class="bg-blue-600 px-6 py-2 mt-2 mx-auto  rounded-md ">Get Started</button>
+                        <!-- Course Item 6 End -->
                     </div>
-                    <!--  -->
+                    <!-- Course Item End -->
+                    <!-- Pagination for Courses Start -->
+                    <div class="flex justify-center mt-10">
+                        <nav aria-label="Page navigation example">
+                            <ul class="flex list-style-none">
+                                <li class="page-item disabled"><a
+                                        class="page-link relative block py-1.5 px-3 rounded border-0 bg-transparent outline-none transition-all duration-300 rounded text-gray-500 pointer-events-none focus:shadow-none"
+                                        href="index.html" tabindex="-1" aria-disabled="true">Previous</a></li>
+                                <li class="page-item"><a
+                                        class="page-link relative block py-1.5 px-3 rounded border-0 bg-transparent outline-none transition-all duration-300 rounded text-gray-800 hover:text-gray-800 hover:bg-gray-200 focus:shadow-none"
+                                        href="index.html">1</a></li>
+                                <li class="page-item active"><a
+                                        class="page-link relative block py-1.5 px-3 rounded border-0 bg-sky-600 outline-none transition-all duration-300 rounded text-white hover:text-white hover:bg-blue-600 shadow-md focus:shadow-md"
+                                        href="index.html">2</a></li>
+                                <li class="page-item"><a
+                                        class="page-link relative block py-1.5 px-3 rounded border-0 bg-transparent outline-none transition-all duration-300 rounded text-gray-800 hover:text-gray-800 hover:bg-gray-200 focus:shadow-none"
+                                        href="index.html">3</a></li>
+                                <li class="page-item"><a
+                                        class="page-link relative block py-1.5 px-3 rounded border-0 bg-transparent outline-none transition-all duration-300 rounded text-gray-800 hover:text-gray-800 hover:bg-gray-200 focus:shadow-none"
+                                        href="index.html">Next</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- Pagination for Courses Start -->
                 </div>
+                <!-- Container End -->
             </section>
         </article>
-        <!-- Article -->
-        <!-- Our Blogs -->
-        <!-- Ready To join -->
-        <section class="grid grid-cols-1 lg:grid-cols-2 h-72 rounded bg-sky-600 mt-24">
+        <!-- Our Courses Part End -->
+
+        <!-- Our Blogs Start -->
+        <section>
+            <!-- Container Start -->
+            <div class="container">
+                <!-- Blog Heading Start -->
+                <div class="section-header mx-auto text-center mt-20">
+                    <h1 class="text-2xl lg:text-4xl font-bold text-titleColor">
+                    Our Popular Blogs
+                    </h1>
+                </div>
+                <!-- Blog Item Start -->
+                <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-6">
+                    <div class="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
+                        <!-- Blog Item 1 Start -->
+                        <div class="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
+                            <img src="images/blog/blog-1.png"
+                                class="object-cover w-full h-64" alt="Our Blog" />
+                            <div class="p-5 border border-t-0">
+                                <p class="mb-3 text-xs font-semibold tracking-wide uppercase">
+                                    <a href="index.html"
+                                        class="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
+                                        aria-label="Category" title="traveling">Last Update</a>
+                                    <span class="text-gray-600">— 28 Dec 2021</span>
+                                </p>
+                                <a href="/" aria-label="Category" title="Visit the East"
+                                    class="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">After Effect CC</a>
+                                <p class="mb-2 text-gray-700">
+                                    The Most Comprehensive, Bestselling  and Highest Rated After Effects Complete Course with over 460+ Lectures.
+                                </p>
+                                <a href="index.html" aria-label=""
+                                    class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
+                                    more</a>
+                            </div>
+                        </div>
+                        <!-- Blog Item 1 End -->
+                        <!-- Blog Item 2 Start -->
+                        <div class="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
+                            <img src="images/blog/blog-2.png"
+                                class="object-cover w-full h-64" alt="Our Blog" />
+                            <div class="p-5 border border-t-0">
+                                <p class="mb-3 text-xs font-semibold tracking-wide uppercase">
+                                    <a href="index.html"
+                                        class="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
+                                        aria-label="Category" title="traveling">Last Update</a>
+                                    <span class="text-gray-600">— 28 Jan 2022</span>
+                                </p>
+                                <a href="index.html" aria-label="Category" title="Simple is better"
+                                    class="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">Development Bootcamp
+                                </a>
+                                <p class="mb-2 text-gray-700">
+                                    Welcome to the Complete Web Development Bootcamp, the only course you need to become a web developer. 
+                                </p>
+                                <a href="index.html" aria-label=""
+                                    class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
+                                    more</a>
+                            </div>
+                        </div>
+                        <!-- Blog Item 2 End -->
+                        <!-- Blog Item 3 Start -->
+                        <div class="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
+                            <img src="images/blog/blog-3.png"
+                                class="object-cover w-full h-64" alt="Our Courses" />
+                            <div class="p-5 border border-t-0">
+                                <p class="mb-3 text-xs font-semibold tracking-wide uppercase">
+                                    <a href="index.html"
+                                        class="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
+                                        aria-label="Category" title="traveling">Last Update</a>
+                                    <span class="text-gray-600">— 10 Feb 2022</span>
+                                </p>
+                                <a href="index.html" aria-label="Category" title="Film It!"
+                                    class="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">Film
+                                    It!</a>
+                                <p class="mb-2 text-gray-700">
+                                    C++ is super fast and is a general-purpose programming language that supports both procedure and object-oriented.
+                                </p>
+                                <a href="index.html" aria-label=""
+                                    class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
+                                    more</a>
+                            </div>
+                        </div>
+                        <!-- Blog Item 3 End -->
+                    </div>
+                </div>
+                <!-- Blog Item Start -->
+                <div class="flex justify-center">
+                    <nav aria-label="Page navigation example">
+                        <ul class="flex list-style-none">
+                            <li class="page-item"><a
+                                    class="page-link relative block py-1.5 px-3 rounded border-0 bg-transparent outline-none transition-all duration-300 rounded text-gray-800 hover:text-gray-800 focus:shadow-none"
+                                    href="index.html">Previous</a></li>
+                            <li class="page-item"><a
+                                    class="page-link relative block py-1.5 px-3 rounded border-0 bg-transparent outline-none transition-all duration-300 rounded text-gray-800 hover:text-gray-800 hover:bg-gray-200 focus:shadow-none"
+                                    href="index.html">1</a></li>
+                            <li class="page-item"><a
+                                    class="page-link relative block py-1.5 px-3 rounded border-0 bg-transparent outline-none transition-all duration-300 rounded text-gray-800 hover:text-gray-800 hover:bg-gray-200 focus:shadow-none"
+                                    href="index.html">2</a></li>
+                            <li class="page-item"><a
+                                    class="page-link relative block py-1.5 px-3 rounded border-0 bg-transparent outline-none transition-all duration-300 rounded text-gray-800 hover:text-gray-800 hover:bg-gray-200 focus:shadow-none"
+                                    href="index.html">3</a></li>
+                            <li class="page-item"><a
+                                    class="page-link relative block py-1.5 px-3 rounded border-0 bg-transparent outline-none transition-all duration-300 rounded text-gray-800 hover:text-gray-800 hover:bg-gray-200 focus:shadow-none"
+                                    href="index.html">Next</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- Container Start -->
+        </section>
+        <!-- Our Blogs Start -->
+
+        <!-- Stay Tuned Start -->
+        <section class="grid grid-cols-1 lg:grid-cols-2 h-72 rounded bg-sky-600 mt-10">
+            <!-- Heading Text Start -->
             <div class="flex flex-col justify-center lg:pl-20 ">
                 <h1 class="text-center lg:text-left text-3xl text-white font-bold">
-                    Ready to join?
+                    STAY TUNED WITH US
                 </h1>
                 <p class="mt-5 text-center lg:text-left text-white">
-                    It is a long established fact that a reader will be distracted by
-                    the readable content of a page when looking at its layout.
+                    Subscribe now and receive weekly newsletter with educational materials, new courses, interesting posts, popular books and much more!
                 </p>
             </div>
+            <!-- Heading Text Start -->
+            <!-- Modal toggle Start -->
             <div class="flex justify-center items-center">
-                <!-- Modal toggle -->
                 <button
                     class="block text-sky-600 font-bold bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-2.5 text-center"
                     type="button" data-modal-toggle="authentication-modal">
-                    Toggle modal
+                    Join US Today
                 </button>
             </div>
-            <!-- Main modal -->
+            <!-- Modal toggle End -->
+            <!-- Main modal Start-->
             <div id="authentication-modal" tabindex="-1" aria-hidden="true"
                 class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full">
                 <div class="relative p-4 w-full max-w-md h-full md:h-auto">
-                    <!-- Modal content -->
+                    <!-- Modal content Start-->
                     <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
                         <button type="button"
                             class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white"
@@ -350,43 +495,48 @@
                                             class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember
                                             me</label>
                                     </div>
-                                    <a href="#" class="text-sm text-blue-700 hover:underline dark:text-blue-500">Lost
+                                    <a href="index.html" class="text-sm text-blue-700 hover:underline dark:text-blue-500">Lost
                                         Password?</a>
                                 </div>
                                 <button type="submit"
                                     class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login
                                     to your account</button>
                                 <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
-                                    Not registered? <a href="#"
+                                    Not registered? <a href="index.html"
                                         class="text-blue-700 hover:underline dark:text-blue-500">Create
                                         account</a>
                                 </div>
                             </form>
                         </div>
                     </div>
+                    <!-- Modal content Start-->
                 </div>
             </div>
+            <!-- Main Modal End -->
         </section>
-        <!-- Ready To join -->
-        <!-- Testimonial -->
+        <!-- Stay Tuned Start -->
+
+        <!-- Testimonial Start -->
         <section id="default-carousel" class="my-24 text-gray-700">
+            <!-- Header Text Start-->
             <div class="text-center md:max-w-xl lg:max-w-3xl mx-auto">
-                <h3 class="mb-6 text-2xl lg:text-4xl font-bold text-black">Testimonials</h3>
+                <h3 class="mb-6 text-2xl lg:text-4xl font-bold text-black">Featured review</h3>
                 <p class="mb-6 pb-2 md:mb-12 md:pb-0 text-gray-700 dark:text-gray-40">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam
                     iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum
                     porro a pariatur veniam.
                 </p>
             </div>
-
+            <!-- Header Text Start-->
+            <!-- Main Section Start -->
             <div class="grid md:grid-cols-3 gap-6 lg:gap-12 text-center">
                 <div class="mb-12 md:mb-0">
                     <div class="flex justify-center mb-6">
-                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
-                            class="rounded-full shadow-lg w-32" />
+                        <img src="images/review/img (1).jpg"
+                            class="rounded-full shadow-lg w-32" alt="Review" />
                     </div>
                     <h5 class="text-xl font-semibold mb-4">Maria Smantha</h5>
-                    <h6 class="font-semibold text-blue-600 mb-4">Web Developer</h6>
+                    <h6 class="font-semibold text-sky-600 mb-4">Web Developer</h6>
                     <p class="mb-4">
                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-left"
                             class="w-6 pr-2 inline-block" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -395,8 +545,7 @@
                                 d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
                             </path>
                         </svg>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic
-                        tenetur quae quaerat ad velit ab hic tenetur.
+                        thank you for the amazing course. I need it to remember C++ again to start learning Unreal game development.
                     </p>
                     <ul class="flex justify-center mb-0">
                         <li>
@@ -448,11 +597,11 @@
                 </div>
                 <div class="mb-12 md:mb-0">
                     <div class="flex justify-center mb-6">
-                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(2).jpg"
-                            class="rounded-full shadow-lg w-32" />
+                        <img src="images/review/img (2).jpg"
+                            class="rounded-full shadow-lg w-32" alt="Review" />
                     </div>
                     <h5 class="text-xl font-semibold mb-4">Lisa Cudrow</h5>
-                    <h6 class="font-semibold text-blue-600 mb-4">Graphic Designer</h6>
+                    <h6 class="font-semibold text-sky-600 mb-4">Graphic Designer</h6>
                     <p class="mb-4">
                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-left"
                             class="w-6 pr-2 inline-block" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -460,8 +609,7 @@
                             <path fill="currentColor"
                                 d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
                             </path>
-                        </svg>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
-                        laboriosam, nisi ut aliquid commodi.
+                        </svg>This is one of the most enjoyable course I had and become Zero to Hero through this amzing course really enjoyed doing this. 
                     </p>
                     <ul class="flex justify-center mb-0">
                         <li>
@@ -513,11 +661,11 @@
                 </div>
                 <div class="mb-0">
                     <div class="flex justify-center mb-6">
-                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
+                        <img src="images/review/img (9).jpg"
                             class="rounded-full shadow-lg w-32" />
                     </div>
                     <h5 class="text-xl font-semibold mb-4">John Smith</h5>
-                    <h6 class="font-semibold text-blue-600 mb-4">Marketing Specialist</h6>
+                    <h6 class="font-semibold text-sky-600 mb-4">Marketing Specialist</h6>
                     <p class="mb-4">
                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-left"
                             class="w-6 pr-2 inline-block" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -577,8 +725,10 @@
                     </ul>
                 </div>
             </div>
+            <!-- Main Section Start -->
         </section>
-        <!-- Testimonial -->
+        <!-- Testimonial End -->
+
         <!-- Faq -->
         <section id="set-height" class="lg:w-[72%] mx-auto mt-32">
             <div class="text-center">
@@ -859,6 +1009,7 @@
         </div>
     </footer>
     <!-- Footer -->
+
     <!-- Tailwind Script.Js -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Component Library External Link -->
